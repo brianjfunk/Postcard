@@ -102,6 +102,15 @@
                                     <rect key="frame" x="16" y="72" width="280" height="87"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yew-8L-osx">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="289" width="368" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -111,6 +120,7 @@
                                 <exclude reference="VdM-sk-0Al"/>
                                 <exclude reference="rht-oj-CaT"/>
                                 <exclude reference="vGT-Bc-OOW"/>
+                                <exclude reference="Yew-8L-osx"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -120,6 +130,7 @@
                                 <include reference="VdM-sk-0Al"/>
                                 <include reference="rht-oj-CaT"/>
                                 <include reference="vGT-Bc-OOW"/>
+                                <include reference="Yew-8L-osx"/>
                             </mask>
                         </variation>
                     </view>
@@ -128,6 +139,7 @@
                         <outlet property="enterNameTextField" destination="h74-ry-oyF" id="MOM-KS-Fjl"/>
                         <outlet property="mailButton" destination="rht-oj-CaT" id="u6A-i4-tsp"/>
                         <outlet property="messageLabel" destination="vGT-Bc-OOW" id="E8Y-QZ-Z0C"/>
+                        <outlet property="nameLabel" destination="Yew-8L-osx" id="DiK-29-5Zt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
